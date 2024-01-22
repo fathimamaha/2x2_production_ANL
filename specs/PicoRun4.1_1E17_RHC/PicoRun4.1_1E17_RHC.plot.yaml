@@ -1,0 +1,11 @@
+base_envs:
+  - name: 'PicoRun4.1_1E17_RHC.plot'
+    env:
+      ARCUBE_DIR: '/home/fathimamaha/2x2_production/data/2x2_sim'
+      ARCUBE_RUNTIME: 'SINGULARITY'
+      ARCUBE_CONTAINER_DIR: '/home/fathimamaha/2x2_production/data/2x2_sim_data/containers'
+      ARCUBE_CONTAINER: 'genie_edep.3_04_00.20230912.sif'
+      ARCUBE_EDEP_NAME: 'PicoRun4.1_1E17_RHC.convert2h5'
+      ARCUBE_LARND_NAME: 'PicoRun4.1_1E17_RHC.larnd'
+      ARCUBE_FLOW_NAME: 'PicoRun4.1_1E17_RHC.flow'
+      ARCUBE_OUT_NAME: 'PicoRun4.1_1E17_RHC.plots'

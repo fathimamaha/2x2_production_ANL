@@ -1,0 +1,18 @@
+base_envs:
+  - name: 'PicoRun4.1_1E17_RHC.rock'
+    env:
+      ARCUBE_DIR: '/home/fathimamaha/2x2_production/data/2x2_sim'
+      ARCUBE_RUNTIME: 'SINGULARITY'
+      ARCUBE_CONTAINER_DIR: '/home/fathimamaha/2x2_production/data/2x2_sim_data/containers'
+      ARCUBE_CONTAINER: 'genie_edep.3_04_00.20230912.sif'
+      ARCUBE_CHERRYPICK: '0'
+      ARCUBE_DET_LOCATION: 'MiniRun4-Rock'
+      ARCUBE_DK2NU_DIR: '/home/fathimamaha/2x2_production/data/2x2_sim_data/NuMI_dk2nu/newtarget-200kA_20220409'
+      ARCUBE_EDEP_MAC: 'macros/2x2_beam.mac'
+      ARCUBE_EXPOSURE: '1E15'
+      ARCUBE_GEOM: 'geometry/Merged2x2MINERvA_v3/Merged2x2MINERvA_v3_justRock.gdml'
+      ARCUBE_GEOM_EDEP: 'geometry/Merged2x2MINERvA_v3/Merged2x2MINERvA_v3_withRock.gdml'
+      ARCUBE_TUNE: 'AR23_20i_00_000'
+      ARCUBE_XSEC_FILE: '/home/fathimamaha/2x2_production/data/2x2_sim_data/gxspl-NUsmall.xml'
+      ARCUBE_RUN_OFFSET: '1000000000'
+      ARCUBE_OUT_NAME: 'PicoRun4.1_1E17_RHC.rock'

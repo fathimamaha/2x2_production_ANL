@@ -1,0 +1,12 @@
+base_envs:
+  - name: 'PicoRun4.1_1E17_RHC.spill'
+    env:
+      ARCUBE_DIR: '/home/fathimamaha/2x2_production/data/2x2_sim'
+      ARCUBE_RUNTIME: 'SINGULARITY'
+      ARCUBE_CONTAINER_DIR: '/home/fathimamaha/2x2_production/data/2x2_sim_data/containers'
+      ARCUBE_CONTAINER: 'genie_edep.3_04_00.20230912.sif'
+      ARCUBE_NU_NAME: 'PicoRun4.1_1E17_RHC.nu.hadd'
+      ARCUBE_NU_POT: '1E16'
+      ARCUBE_ROCK_NAME: 'PicoRun4.1_1E17_RHC.rock.hadd'
+      ARCUBE_ROCK_POT: '1E16'
+      ARCUBE_OUT_NAME: 'PicoRun4.1_1E17_RHC.spill'

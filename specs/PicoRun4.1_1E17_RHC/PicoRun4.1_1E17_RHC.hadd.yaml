@@ -1,0 +1,19 @@
+base_envs:
+  - name: 'PicoRun4.1_1E17_RHC.nu.hadd'
+    env:
+      ARCUBE_DIR: '/home/fathimamaha/2x2_production/data/2x2_sim'
+      ARCUBE_RUNTIME: 'SINGULARITY'
+      ARCUBE_CONTAINER_DIR: '/home/fathimamaha/2x2_production/data/2x2_sim_data/containers'
+      ARCUBE_CONTAINER: 'genie_edep.3_04_00.20230912.sif'
+      ARCUBE_IN_NAME: 'PicoRun4.1_1E17_RHC.nu'
+      ARCUBE_OUT_NAME: 'PicoRun4.1_1E17_RHC.nu.hadd'
+      ARCUBE_HADD_FACTOR: '10'
+  - name: 'PicoRun4.1_1E17_RHC.rock.hadd'
+    env:
+      ARCUBE_DIR: '/home/fathimamaha/2x2_production/data/2x2_sim'
+      ARCUBE_RUNTIME: 'SINGULARITY'
+      ARCUBE_CONTAINER_DIR: '/home/fathimamaha/2x2_production/data/2x2_sim_data/containers'
+      ARCUBE_CONTAINER: 'genie_edep.3_04_00.20230912.sif'
+      ARCUBE_IN_NAME: 'PicoRun4.1_1E17_RHC.rock'
+      ARCUBE_OUT_NAME: 'PicoRun4.1_1E17_RHC.rock.hadd'
+      ARCUBE_HADD_FACTOR: '10'
